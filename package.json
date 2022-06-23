@@ -1,0 +1,16 @@
+{
+  "name": "graph-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@microsoft/msgraph-sdk-javascript": "1.0.0-preview.4",
+    "@types/node": "^17.0.40"
+  }
+}

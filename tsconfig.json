@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "diagnostics": true,
+        "outDir": "lib"
+    },
+    "target": "es6",
+    "exclude": [
+        "node_modules"
+    ],
+    "outdir":"lib",
+    "lib": ["es5", "es6"],
+}
