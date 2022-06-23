@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json",
+    "test": "node ./lib/index.js"
   },
   "keywords": [],
   "author": "",
