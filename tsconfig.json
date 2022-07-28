@@ -1,10 +1,12 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
+        "module": "es6",
+        "target": "es6",
         "diagnostics": true,
-        "outDir": "lib"
+        "outDir": "lib",
+        "moduleResolution": "node"
+
     },
-    "target": "es6",
     "exclude": [
         "node_modules"
     ],
